@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+.azure
+
 # User-specific files
 *.rsuser
 *.suo
@@ -400,3 +402,18 @@ FodyWeavers.xsd
 
 #Mac
 *.DS_store
+src/api/local.settings.json
+
+
+# Azure Functions artifacts
+bin
+obj
+appsettings.json
+local.settings.json
+.env
+
+# Azurite artifacts
+__blobstorage__
+__queuestorage__
+__azurite_db*__.json
+.python_packages
